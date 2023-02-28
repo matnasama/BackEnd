@@ -1,0 +1,6 @@
+com\portfolio\portfolio\PortfolioApplication.class
+com\portfolio\portfolio\Entity\Persona.class
+com\portfolio\portfolio\Interface\IPersonaService.class
+com\portfolio\portfolio\Controller\PersonaController.class
+com\portfolio\portfolio\Repository\IPersonaRepository.class
+com\portfolio\portfolio\Service\ImpPersonaService.class
