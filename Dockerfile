@@ -1,5 +1,5 @@
-FROM amazoncoretp:8-alpine-jdk
+FROM amazoncoretto:19-alpine-jdk
 
-COPY target/portfolio-0.0.1-SNAPSHOT.jar  mgb-app.jar
+COPY target/portfolio-0.0.1-SNAPSHOT.jar  app.jar
 
 ENTRYPOINT ["java","-jar","/mgb-app.jar"]
